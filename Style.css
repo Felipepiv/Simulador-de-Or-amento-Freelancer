@@ -1,0 +1,167 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #1E3A8A 0%, #2563EB 40%, #ffffff 100%);
+}
+
+header {
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height:25vh; 
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.banner-content {
+    width: 80%;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+main {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.categoria {
+    margin-bottom: 2rem;
+}
+
+.produto {
+    background: rgba(255, 255, 255, 0.85); /* leve transparência */
+    backdrop-filter: blur(10px); /* efeito vidro (glassmorphism) */
+    
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.preco  {
+    font-weight: bold;
+    color: #1E3A8A;
+    font-size: 1.2rem;
+}
+
+.adicionar {
+    background: linear-gradient(135deg, #2563EB, #1E3A8A);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: 0.3s;
+}
+
+.adicionar:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+#pedido {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#finalizar-pedido {
+    background: linear-gradient(135deg, #2563EB, #1E3A8A);
+    border: none;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+#finalizar-pedido:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+    opacity: 0.95;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    background-color: white;
+    color: #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem auto;
+    background: transparent;
+    color: #333;
+}
+
+@media (min-width: 768px){
+    main{
+        width: 60%;
+    }
+
+    .categoria{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        gap: 1rem;
+    }
+}
+
+
+
+
+
