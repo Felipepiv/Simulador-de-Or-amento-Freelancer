@@ -25,16 +25,22 @@ Responsivo em desktops e dispositivos móveis.
 
 ### Tecnologias Utilizadas
 .HTML5 – Estrutura da página e semântica.
+
 .CSS3 – Layout, cores, degradê, glassmorphism e responsividade.
+
 .JavaScript – Manipulação do DOM, cálculo do total e interação do usuário.
 
 ### Como Executar
 
-.Clone ou baixe o projeto.
-.Abra o arquivo index.html no seu navegador.
-.Clique em “adicionar” para incluir serviços no pedido.
-.Observe o total atualizado automaticamente abaixo da lista de pedidos.
-.Clique em “finalizar pedido” para confirmar e resetar o pedido.
+.Clone ou baixe o projeto
+
+.Abra o arquivo index.html no seu navegador
+
+.Clique em “adicionar” para incluir serviços no pedido
+
+.Observe o total atualizado automaticamente abaixo da lista de pedidos
+
+.Clique em “finalizar pedido” para confirmar e resetar o pedido
 
 
 ### Autor
