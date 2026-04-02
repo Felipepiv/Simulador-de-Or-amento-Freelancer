@@ -22,10 +22,11 @@ Fundo com degradê azul → branco.
 Cards com efeito glassmorphism (transparência + blur).
 Botões com degradê azul e efeitos hover e clique.
 Responsivo em desktops e dispositivos móveis.
-💻 Tecnologias Utilizadas
-HTML5 – Estrutura da página e semântica.
-CSS3 – Layout, cores, degradê, glassmorphism e responsividade.
-JavaScript – Manipulação do DOM, cálculo do total e interação do usuário.
+
+### Tecnologias Utilizadas
+.HTML5 – Estrutura da página e semântica.
+.CSS3 – Layout, cores, degradê, glassmorphism e responsividade.
+.JavaScript – Manipulação do DOM, cálculo do total e interação do usuário.
 
 ### Como Executar
 
@@ -35,12 +36,6 @@ JavaScript – Manipulação do DOM, cálculo do total e interação do usuário
 .Observe o total atualizado automaticamente abaixo da lista de pedidos.
 .Clique em “finalizar pedido” para confirmar e resetar o pedido.
 
-### Melhorias Futuras
-
-.Adicionar a opção de remover itens individualmente.
-.Exportar o orçamento em PDF ou planilha.
-.Conectar com WhatsApp ou e-mail para envio direto do orçamento.
-.Armazenar pedidos no localStorage para persistência de dados.
 
 ### Autor
 [LinkedIn do Felipe](https://www.linkedin.com/in/felipe-piva-8646232ab/)
